@@ -1,0 +1,50 @@
+body {
+	font-family: Calibri;
+	background: #fff;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	border: 0px solid red;
+}
+
+table {
+	border-spacing: 5px 0px;
+}
+
+table tr {
+	border-spacing: 5px 5px;
+}
+
+td.cell-beskrivning {
+	font-weight: bold;
+	text-align: center;
+}
+
+table#kalender-tabell tr:nth-child(odd) {
+	background: #eee;
+}
+
+td.cell-input-timmar input[type=text] {
+	width: 20px;
+	text-align: center;
+	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+}
+
+td.cell-input-timmar input[type=text]:focus {
+	border: solid 1px #fff;
+	box-shadow: 0 0 1px 1px #4891DB;
+}
+
+#text-input-base-salary {
+	width: 100px;
+	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+}
+
+#text-input-base-salary:focus {
+	border: solid 1px #fff;
+	box-shadow: 0 0 1px 1px #4891DB;
+}
