@@ -1,0 +1,1 @@
+Just a small program to calculate salary, which I made for js practice.
